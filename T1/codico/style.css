@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background-color: #008d52;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .banner {
+    background: rgba(0,159,72,255);
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    flex: 1 1 300px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .cronograma table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .cronograma th, .cronograma td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color:rgba(0,159,72,255);
+    color: white;
+    text-align: center;
+  }
+
+  .galeria .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .galeria .grid div {
+    background-color: #ddd;
+    height: 60px;
+  }
+
+  .categorias ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .aviso {
+    background-color: #46af69;
+    border-left: 5px solid #3ca726;
+    padding: 10px;
+    margin: 20px;
+  }
